@@ -1,0 +1,14 @@
+{
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "ext-pdo": "*",
+        "ext-openssl": "*",
+        "ext-sodium": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

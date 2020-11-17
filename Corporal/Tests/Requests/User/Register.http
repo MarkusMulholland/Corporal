@@ -1,0 +1,23 @@
+#TODO Bring this request up to speed
+
+POST http://webstore.test/user/register
+Content-Type: application/json
+
+{
+  "user":
+  {
+    "id" : 0,
+    "email" : "mulhollandmarkus@gmail.com",
+    "password" : "test1234",
+    "mobileNumber" : "0604625872",
+    "role" : 0,
+    "deliveryDetails" :
+    {
+      "id" : 0,
+      "streetNumber" : 25,
+      "streetName" : "Street",
+      "city" : "LotOfStreet",
+      "postalCode" : "0123"
+    }
+  }
+}

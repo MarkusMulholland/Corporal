@@ -1,0 +1,5 @@
+POST http://webstore.test/user/login/
+Authorization: {"auth" : {"type":"1", "username":"", "password":"" }}
+Content-Type: text/plain
+
+{"user":{"email":"mulhollandmarkus@gmail.com","password":"test1234"}}
